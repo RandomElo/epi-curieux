@@ -31,7 +31,8 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
+    margin-bottom: 5px;
     line-height: 30px;
 }
 #presentation {
@@ -44,7 +45,7 @@ h2{
 }
 .lien {
   padding: 15px 20px; /*Hauteur et largeur*/
-  margin: 15px 15px;/*Marge sur la côter du blockk*/
+  margin: 10px 10px;/*Marge sur la côter du blockk*/
   width: 200px; /* Définir la largeur souhaitée */
   text-align: center;/*On centre le texte*/
   color: white;
@@ -55,4 +56,25 @@ h2{
     background-color: white;
     color: black;
     border: 1px solid black;
+}
+footer {
+    border-top: 1px dashed black;
+    background-color: orange;
+    color: black;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+footer a{
+    color: black;
+    text-decoration: underline;
+}
+footer a:hover {
+    color: #333;
+}
+footer a:visited {
+    color: black;
 }
